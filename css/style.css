@@ -1,0 +1,1738 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*======================css reset end==================*/
+
+body{
+    font-size:16px;
+    color: #aeaeae;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400px;
+    background: url(../img/pattern-bg.png) no-repeat center center;
+}
+
+/*===========Global class============*/
+.heading-text h2{
+    font-family: 'Ubuntu bold', sans-serif;
+    font-size: 36px;
+    color: #6a91ff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.heading-text h5{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    color: #999999;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/*===========end Global class============*/
+
+
+.header{
+    background-image: url("../img/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 950px;
+    width: 100%;
+}
+
+.navbar-inverse {
+    background-color: #648CFF;
+    border-color: #648CFF;
+    opacity: 0.6;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #648CFF;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+
+.collapse ul{
+    margin-left: 100px;
+}
+
+.collapse ul li a{
+    margin-left: 30px;
+}
+
+.collapse .nav-social ul li a i{
+    margin-right: -17px;
+}
+
+
+.navbar-inverse .navbar-nav>li>a:hover{
+    color: #000;
+}
+/*banner-area*/
+.banner-area{
+    padding-top: 100px;
+}
+.banner-wrap{
+
+}
+
+.text-banner-left h2{
+    padding-top: 200px;
+    color: #ffffff;
+    font-size: 60px;
+}
+
+.text-banner-left p{
+    padding-top: 50px;
+    color: #fff;
+}
+
+.text-banner-left .btn{
+    margin-top: 60px;
+}
+
+.text-banner-left .btn.btn-default{
+    background-color: #4466c9;
+    border: 1px solid #4466c9;
+    color: #fff;
+}
+
+.text-banner-right{
+    position: relative;
+}
+
+.text-banner-right span.Sunny{
+    position: absolute;
+    top: 400px;
+    left: 0;
+    background-color: #fc6a42;
+    border: 1px solid #fc6a42;
+    border-radius: 50px 50px;
+    height: 90px;
+    width: 90px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 35px 20px;
+}
+
+.text-banner-right span.arrow a {
+    position: absolute;
+    top: 660px;
+    left: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 50px 50px;
+    height: 50px;
+    width: 50px;
+    text-transform: uppercase;
+    color: #fc6a42;
+    padding: 16px 20px;
+}
+
+.text-banner-right img{
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+.text-banner-right span.nine {
+    position: absolute;
+    top: 95px;
+    right: 100px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50px 50px;
+    height: 50px;
+    width: 50px;
+    text-transform: uppercase;
+    color: #6c91f6;
+    padding: 16px 20px;
+}
+
+.text-banner-right span.London {
+    position: absolute;
+    top: 300px;
+    left: 433px;
+    background-color: #4466c9;
+    border: 1px solid #4466c9;
+    border-radius: 50px 50px;
+    height: 90px;
+    width: 90px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 35px 12px;
+}
+
+.text-banner-right span.Rio {
+    position: absolute;
+    top: 600px;
+    left: 433px;;
+    background-color: #fcec64;
+    border: 1px solid #fcec64;
+    border-radius: 50px 50px;
+    height: 50px;
+    width: 50px;
+    text-transform: uppercase;
+    color: #698ffa;
+    padding: 15px 10px;
+}
+
+/*==========style of main-full-content=======*/
+.main-full-content{
+    background-image: url("../img/");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main-content-wrap{
+
+}
+
+/*==========style of Perfect-Features-area=======*/
+.Perfect-Features-area{
+    padding: 90px 0;
+}
+
+.Perfect-Features-wrap{
+    position: relative;
+}
+
+.Perfect-Features-heading h2{
+    font-family: 'Ubuntu bold', sans-serif;
+    font-size: 36px;
+    color: #6a91ff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.Perfect-Features-heading h5{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    color: #999999;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 120px;
+}
+
+.parallax-area1 a img{
+    height: 60px;
+    width: 70px;
+}
+
+.parallax-area1 h3{
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    font-family: 'Ubuntu bold', sans-serif;
+    font-size: 24px;
+    color: #353854;
+    font-weight: bold;
+}
+
+.parallax-area1 p{
+    position: absolute;
+    top: 40px;
+    left: 100px;
+    text-align: justify;
+}
+/**/
+.parallax-area2 a img{
+    height: 60px;
+    width: 70px;
+}
+
+.parallax-area2 h3{
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    font-family: 'Ubuntu bold', sans-serif;
+    font-size: 24px;
+    color: #353854;
+    font-weight: bold;
+}
+
+.parallax-area2 p{
+    position: absolute;
+    top: 40px;
+    left: 100px;
+    text-align: justify;
+}
+/**/
+.parallax-area3 a img{
+    height: 60px;
+    width: 70px;
+}
+
+.parallax-area3 h3{
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    font-family: 'Ubuntu bold', sans-serif;
+    font-size: 24px;
+    color: #353854;
+    font-weight: bold;
+}
+
+.parallax-area3 p{
+    position: absolute;
+    top: 40px;
+    left: 100px;
+    text-align: justify;
+}
+
+
+/*=======style of Simple-widgets-area===========*/
+.Simple-widgets-area{
+    padding: 45px 0;
+}
+.Simple-widgets-wrap{
+
+}
+.widget-text h2{
+    font-family: 'Ubuntu bold', sans-serif;
+    font-size: 36px;
+    color: #6a91ff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.widget-text h5{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    color: #999999;
+    text-align: center;
+    margin-top: 30px;
+}
+/*carousel*/
+.round-carousel{}
+/* http://www.menucool.com/jquery-slider */
+
+#thumbnail-slider {
+    margin:0 auto; /*center-aligned*/
+    width:100%;
+    max-width:900px;
+    padding:0;
+    box-sizing:border-box;
+    position:relative;
+    -webkit-user-select: none;
+    user-select:none;
+}
+
+#thumbnail-slider div.inner {    
+    /*the followings should not be changed */
+    position:relative;
+    overflow:hidden;
+    padding:0;
+    margin:0;
+}
+ 
+#thumbnail-slider div.inner ul {    
+    /*the followings should not be changed */
+    white-space:nowrap;
+    position:relative;
+    left:0; top:0;
+    list-style:none;
+    font-size:0;
+    padding:0;
+    margin:0;
+    float:left!important;
+    width:auto!important;
+    height:auto!important;
+}
+
+#thumbnail-slider ul li {
+    display:inline-block;
+    margin-top:20px;
+    margin-bottom:90px;
+    margin-left:-30px; margin-right:-30px; /* Spacing between thumbs*/
+    -webkit-transform:scale(0.9);
+    transform:scale(0.9); /*Note: The scale down will increase the spacing between slides. You can set negative margins as did above to roll back the spacing. */
+    -webkit-transition:-webkit-transform 0.5s;
+    transition:transform 0.5s;
+    box-sizing:content-box;
+    text-align:center;
+    vertical-align:middle;
+    padding:0;
+    position:relative;
+    list-style:none;
+    backface-visibility:hidden;
+    
+    /*-webkit-filter: grayscale(100%);
+    filter: grayscale(100%);*/
+    
+}
+
+#thumbnail-slider ul li.active {
+    -webkit-transform:scale(1.15); 
+    transform:scale(1.15); /*Note: if scale is greater than 1, the margin-top and margin-bottom in the selector "#thumbnail-slider li" must be set with a sufficient value so the enlarged image will be shown within the margins.*/
+    background-color:transparent;
+    
+    /*-webkit-filter: initial;
+    filter: initial;*/
+}
+
+#thumbnail-slider .thumb {
+    width:100%;
+    height: 100%;
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center center;
+    display:block;
+    position:absolute;
+    font-size:0;
+    cursor:inherit;
+    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(70%, transparent), to(rgba(255,255,255,0.4)));
+    transition:all linear 0.4s;
+}
+
+
+/*-- Start 3D --*/
+    #thumbnail-slider .thumb {
+        -webkit-transform: perspective(500px) translateX(1px) translateZ(-30px) rotateY(30deg);
+        transform: perspective(500px) translateX(1px) translateZ(-30px) rotateY(30deg);
+    }
+
+    #thumbnail-slider .active .thumb {
+        -webkit-transform: translateX(0px) translateZ(0px) rotateY(0deg); 
+        transform: translateX(0px) translateZ(0px) rotateY(0deg); 
+    }
+
+    #thumbnail-slider li.active ~ li .thumb {
+        -webkit-transform: perspective(500px) translateX(-1px) translateZ(-30px) rotateY(-30deg); 
+        transform: perspective(500px) translateX(-1px) translateZ(-30px) rotateY(-30deg); 
+    }
+/*-- End 3D --*/
+
+/* --------- navigation controls ------- */   
+/* The nav id should be: slider id + ("-prev", "-next", and "-pause-play") */
+
+#thumbnail-slider-pause-play {display:none;} /*.pause*/
+#thumbnail-slider-prev, #thumbnail-slider-next {display:none;}
+
+
+/*============style of Screenshots-area============*/
+.Screenshots-area{
+    padding: 45px 0;
+}
+
+.Screenshots-text h2{
+    font-family: 'Ubuntu bold', sans-serif;
+    font-size: 36px;
+    color: #6a91ff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.Screenshots-text h5{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    color: #999999;
+    text-align: center;
+    margin-top: 30px;
+}
+/*==*/
+.cloudy-img{
+    position: relative;
+}
+
+.cloudy-img h1{
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    font-size: 256px;
+    color: #ededf2;
+    transform: rotate(90deg);
+    z-index: -1;
+}
+
+.cloudy-img img{
+    float: right;
+    margin: 150px 140px 0 0;
+}
+
+.cloudy-img span.cloudy-box{
+    position: absolute;
+    top: 327px;
+    left: 360px;
+    background-color: #fcec64;
+    border: 1px solid #fcec64;
+    border-radius: 50px 50px;
+    height: 90px;
+    width: 90px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 35px 10px;
+}
+
+.cloudy-img span.cloudy15{
+    position: absolute;
+    top: 500px;
+    left: 60px;
+    background-color: #6ca3ff;
+    border: 1px solid #6ca3ff;
+    border-radius: 50px 50px;
+    height: 90px;
+    width: 90px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 31px 21px;
+    font-size: 29px;
+    font-family: 'Ubuntu bold', sans-serif;
+}
+
+
+/**/
+.cloudy-text{
+    position: relative;
+}
+.cloudy-text img{
+    margin-top: 200px;
+}
+
+.cloudy-text h3{
+    font-size: 36px;
+    font-family: 'Ubuntu bold', sans-serif;
+    color: #648cff;
+    font-weight: bold;
+    margin-top: 45px;
+}
+.cloudy-text p{
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 26px;
+    color: #353854;
+    font-size: 24px;
+    text-align: justify;
+    margin-top: 30px;
+    word-spacing: 5px;
+}
+
+.cloudy-text span.persent{
+    position: absolute;
+    top: 300px;
+    left: 0px;
+    background-color: #fff;
+    border: 1px solid #f4f4f4;
+    border-radius: 50px 50px;
+    height: 50px;
+    width: 50px;
+    box-shadow: 5px 5px 5px 5px #f4f4f4;
+    color: #353854;
+    padding: 13px 4px;
+    font-size: 20px;
+    font-family: 'Ubuntu bold', sans-serif;
+}
+
+.cloudy-text span.rain-degree{
+    position: absolute;
+    top: 300px;
+    left: 51px;
+    background-color: #fff;
+    border: 1px solid #f4f4f4;
+    border-radius: 50px 50px;
+    height: 50px;
+    width: 50px;
+    box-shadow: 5px 5px 5px 5px #f4f4f4;
+    color: #353854;
+    padding: 13px 16px;
+    font-size: 20px;
+    font-family: 'Ubuntu bold', sans-serif;
+    z-index: -1;
+}
+
+
+.cloudy-text span.Rainy{
+    position: absolute;
+    top: 300px;
+    left: 108px;
+    background-color: #fff;
+    border: 1px solid #f4f4f4;
+    border-radius: 50px 50px;
+    height: 50px;
+    width: 50px;
+    box-shadow: 5px 5px 5px 5px #f4f4f4;
+    color: #353854;
+    padding: 13px 1px;
+    font-size: 18px;
+    font-family: 'Ubuntu bold', sans-serif;
+    z-index: -2;
+}
+
+/*============style of When-the-sun-area==========*/
+.When-the-sun-area{
+    padding: 45px 0;
+}
+.the-sun-wrap{}
+
+.the-sun-text{
+    position: relative;
+}
+
+.the-sun-text img{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.the-sun-text h3{
+    font-size: 36px;
+    font-family: 'Ubuntu bold', sans-serif;
+    color: #648cff;
+    font-weight: bold;
+    margin-top: 45px;
+    margin-left: 50px;
+}
+
+.the-sun-text p{
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 26px;
+    color: #353854;
+    font-size: 24px;
+    text-align: justify;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.the-sun-text span.persent{
+    position: absolute;
+    top: 300px;
+    left: 0px;
+    background-color: #fff;
+    border: 1px solid #f4f4f4;
+    border-radius: 50px 50px;
+    height: 50px;
+    width: 50px;
+    box-shadow: 5px 5px 5px 5px #f4f4f4;
+    color: #353854;
+    padding: 13px 4px;
+    font-size: 20px;
+    font-family: 'Ubuntu bold', sans-serif;
+    margin:50px 0 0 50px;
+}
+
+.the-sun-text span.rain-degree{
+    position: absolute;
+    top: 300px;
+    left: 51px;
+    background-color: #fff;
+    border: 1px solid #f4f4f4;
+    border-radius: 50px 50px;
+    height: 50px;
+    width: 50px;
+    box-shadow: 5px 5px 5px 5px #f4f4f4;
+    color: #353854;
+    padding: 13px 16px;
+    font-size: 20px;
+    font-family: 'Ubuntu bold', sans-serif;
+    z-index: -1;
+    margin:50px 0 0 50px;
+}
+
+
+.the-sun-text span.Rainy{
+    position: absolute;
+    top: 300px;
+    left: 108px;
+    background-color: #fff;
+    border: 1px solid #f4f4f4;
+    border-radius: 50px 50px;
+    height: 50px;
+    width: 50px;
+    box-shadow: 5px 5px 5px 5px #f4f4f4;
+    color: #353854;
+    padding: 13px 1px;
+    font-size: 18px;
+    font-family: 'Ubuntu bold', sans-serif;
+    z-index: -2;
+    margin:50px 0 0 50px;
+}
+/**/
+.the-sun-photo img{
+    margin-left: 100px;
+}
+
+.the-sun-photo{
+    position: relative;
+}
+
+.the-sun-photo span.sonne{    
+    position: absolute;
+    top: 141px;
+    left: 360px;
+    background-color: #f2a14e;
+    border: 1px solid #f2a14e;
+    border-radius: 50px 50px;
+    height: 90px;
+    width: 90px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 35px 15px;
+    font-family: 'Ubuntu bold', sans-serif;
+}
+
+.the-sun-photo span.temparetur{    
+    position: absolute;
+    top: 384px;
+    left: 45px;
+    background-color: #fc6a42;
+    border: 1px solid #fc6a42;
+    border-radius: 50px 50px;
+    height: 90px;
+    width: 90px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 29px 26px;
+    font-family: 'Ubuntu bold', sans-serif;
+    font-size: 29px;
+}
+
+/*==============style of When-the-rain-area============*/
+.When-the-rain-area{
+    padding: 45px 0;
+}
+.the-rain-wrap{
+    
+}
+
+
+/*==*/
+.rain-img{
+    position: relative;
+}
+
+.rain-img h1{
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    font-size: 256px;
+    color: #ededf2;
+    transform: rotate(90deg);
+    z-index: -1;
+}
+
+.rain-img img{
+    float: right;
+    margin: 150px 140px 0 0;
+}
+
+.rain-img span.rain-box{
+    position: absolute;
+    top: 327px;
+    left: 360px;
+    background-color: #b8faee;
+    border: 1px solid #b8faee;
+    border-radius: 50px 50px;
+    height: 90px;
+    width: 90px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 35px 10px;
+}
+
+.rain-img span.rain15{
+    position: absolute;
+    top: 500px;
+    left: 60px;
+    background-color: #7693c8;
+    border: 1px solid #7693c8;
+    border-radius: 50px 50px;
+    height: 90px;
+    width: 90px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 31px 21px;
+    font-size: 29px;
+    font-family: 'Ubuntu bold', sans-serif;
+}
+
+
+/**/
+.rain-text{
+    position: relative;
+}
+.rain-text img{
+    margin-top: 200px;
+}
+
+.rain-text h3{
+    font-size: 36px;
+    font-family: 'Ubuntu bold', sans-serif;
+    color: #648cff;
+    font-weight: bold;
+    margin-top: 45px;
+}
+.rain-text p{
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 26px;
+    color: #353854;
+    font-size: 24px;
+    text-align: justify;
+    margin-top: 30px;
+    word-spacing: 5px;
+}
+
+.rain-text span.persent{
+    position: absolute;
+    top: 300px;
+    left: 0px;
+    background-color: #fff;
+    border: 1px solid #f4f4f4;
+    border-radius: 50px 50px;
+    height: 50px;
+    width: 50px;
+    box-shadow: 5px 5px 5px 5px #f4f4f4;
+    color: #353854;
+    padding: 13px 4px;
+    font-size: 20px;
+    font-family: 'Ubuntu bold', sans-serif;
+}
+
+.rain-text span.rain-degree{
+    position: absolute;
+    top: 300px;
+    left: 51px;
+    background-color: #fff;
+    border: 1px solid #f4f4f4;
+    border-radius: 50px 50px;
+    height: 50px;
+    width: 50px;
+    box-shadow: 5px 5px 5px 5px #f4f4f4;
+    color: #353854;
+    padding: 13px 16px;
+    font-size: 20px;
+    font-family: 'Ubuntu bold', sans-serif;
+    z-index: -1;
+}
+
+
+.rain-text span.Rainy{
+    position: absolute;
+    top: 300px;
+    left: 108px;
+    background-color: #fff;
+    border: 1px solid #f4f4f4;
+    border-radius: 50px 50px;
+    height: 50px;
+    width: 50px;
+    box-shadow: 5px 5px 5px 5px #f4f4f4;
+    color: #353854;
+    padding: 13px 1px;
+    font-size: 18px;
+    font-family: 'Ubuntu bold', sans-serif;
+    z-index: -2;
+}
+
+/*=============style of What-people-are-saying-area========*/
+.What-people-are-saying-area{
+    padding: 90px 60px;
+}
+.people-saying-text h2{
+    font-family: 'Ubuntu bold', sans-serif;
+    font-size: 36px;
+    color: #6a91ff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.people-saying-text h5{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    color: #999999;
+    text-align: center;
+    margin-top: 30px;
+}
+.people-saying-wrap{
+    position: relative;
+}
+
+.people-saying-text{
+
+}
+
+.left-bone{
+    padding: 50px 0;
+}
+.left-bone img{
+    margin-left: 50px;
+}
+
+.left-bone p{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.left-bone span.John{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    color: #353854;
+    top: 144px;
+    left: 60px;
+    position: absolute;
+}
+
+.left-bone span.Mignon{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    color: #353854;
+    top: 311px;
+    left: 60px;
+    position: absolute;
+}
+
+.left-bone img.right-img{
+    float: right;
+    margin-top: 20px;
+}
+/**/
+.right-bone{
+    position: relative;
+}
+
+.right-bone{
+    padding: 50px 0;
+}
+.right-bone img{
+    margin-left: 50px;
+}
+
+.right-bone p{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.right-bone span.John{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    color: #353854;
+    top: 144px;
+    left: 60px;
+    position: absolute;
+}
+
+.right-bone img.right-img{
+    float: right;
+    margin-top: 20px;
+}
+
+/*=========style of download-area=============*/
+.download-area{
+    padding: 90px 0;
+    background: #648cff;
+    height: 450px;
+    width: 100%;
+    position: relative;
+}
+
+.download-wrap{}
+
+.download-text h3{
+    font-family: 'Ubuntu bold', sans-serif;
+    font-size: 36px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.download-text p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 25px;
+    margin-top:40px;
+}
+
+.download-text img{
+    margin-top: 50px;
+}
+
+.download-text img.google-right{
+    float: right;
+    position: absolute;
+    top: 126px;
+    left: 170px;
+}
+
+.download-img{
+    position: relative;
+}
+
+.download-img img{
+    position: absolute;
+    top: 60px;
+}
+
+/*==========style of weather-footer========*/
+.weather-footer{
+    padding: 70px 0;
+    height: 200px;
+    width: 100%;
+    background: #353854;
+    border-bottom: 2px solid #3a3d5b;}
+
+.weather-footer-wrap .fun a{
+    text-decoration: none;
+    color: #648cff;
+    font-size: 24px;
+    font-family: 'Ubuntu bold', sans-serif;
+}
+
+.weather-footer-wrap .fun span.moja{
+    color: #ba5948;
+}
+
+.weather-footer-wrap .footer ul li{
+    display: inline-block;
+}
+
+.weather-footer-wrap .footer ul{
+    padding-top: 10px;
+}
+
+.weather-footer-wrap .footer ul li a{
+    text-decoration: none;
+    margin-left: 80px;
+    color: #f4f4f4;
+}
+
+.weather-footer-wrap .another-connect ul li{
+    display: inline-block;
+}
+
+.weather-footer-wrap .another-connect ul{
+    padding-top: 15px;
+}
+
+.weather-footer-wrap .another-connect ul li a i{
+   margin-left: 20px;
+   color: #f5f5f5;
+}
+
+
+/*=========style of footer==========*/
+.footer{
+    height: 100px;
+    width: 100%;
+    background: #353854;
+}
+
+.credit p{
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+
+/************************media query**********************/
+ 
+/*===Custom, iPhone Retina===*/
+@media only screen and (max-width : 320px) {
+    /*=======header-area======*/
+.text-banner-left h2{
+    padding-top: 10px;
+    color: #ffffff;
+    font-size: 30px;
+}
+.text-banner-right img{
+    margin-top: 30px;
+    margin-left: 20px;
+    height: 450px;
+    width: 70%;
+}
+.text-banner-right span.Sunny{
+    position: absolute;
+    top: 300px;
+    left: 0;
+    background-color: #fc6a42;
+    border: 1px solid #fc6a42;
+    border-radius: 50px 50px;
+    height: 70px;
+    width: 70px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 25px 6px;
+}
+.text-banner-right span.nine {
+    position: absolute;
+    top: 95px;
+    right: 28px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50px 50px;
+    height: 50px;
+    width: 50px;
+    text-transform: uppercase;
+    color: #6c91f6;
+    padding: 16px 20px;
+}
+.text-banner-right span.arrow a {
+    position: absolute;
+    top: 488px;
+    left: 104px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 50px 50px;
+    height: 50px;
+    width: 50px;
+    text-transform: uppercase;
+    color: #fc6a42;
+    padding: 16px 20px;
+}
+.text-banner-right span.London {
+    position: absolute;
+    top: 225px;
+    left: 240px;
+    background-color: #4466c9;
+    border: 1px solid #4466c9;
+    border-radius: 50px 50px;
+    height: 70px;
+    width: 70px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 25px 6px;
+    font-size: 14px;
+}
+
+.text-banner-right span.Rio {
+    position: absolute;
+    top: 460px;
+    left: 241px;;
+    background-color: #fcec64;
+    border: 1px solid #fcec64;
+    border-radius: 50px 50px;
+    height: 50px;
+    width: 50px;
+    text-transform: uppercase;
+    color: #698ffa;
+    padding: 15px 10px;
+}
+
+/************media query perfect-feature**************/
+.Perfect-Features-heading h2{
+    font-family: 'Ubuntu bold', sans-serif;
+    font-size: 26px;
+    color: #6a91ff;
+    text-transform: uppercase;
+    text-align: center;
+}
+.Perfect-Features-wrap{
+    position: relative;
+    height: 760px;
+    padding: 30px 0;
+}
+
+.parallax-area1 a img{
+    height: 30px;
+    width: 35px;
+    position: absolute;
+    top: -50px;
+    left: 50px;
+}
+.parallax-area1 h3{
+    position: absolute;
+    top: -55px;
+    left: 90px;
+    font-family: 'Ubuntu bold', sans-serif;
+    font-size: 24px;
+    color: #353854;
+    font-weight: bold;
+}
+.parallax-area1 p{
+    position: absolute;
+    top: -30px;
+    left: 90px;
+    text-align: justify;
+    line-height: 15px;
+}
+/******/
+.parallax-area2 a img{
+    height: 30px;
+    width: 35px;
+    position: absolute;
+    top: 150px;
+    left: 20px;
+}
+.parallax-area2 h3{
+    position: absolute;
+    top: 150px;
+    left: 60px;
+    font-family: 'Ubuntu bold', sans-serif;
+    font-size: 16px;
+    color: #353854;
+    font-weight: bold;
+}
+.parallax-area2 p{
+    position: absolute;
+    top: 180px;
+    left: 60px;
+    line-height: 15px;
+}
+/******/
+.parallax-area3 a img{
+    height: 30px;
+    width: 35px;
+    position: absolute;
+    top: 370px;
+    left: -5px;
+}
+.parallax-area3 h3{
+    position: absolute;
+    top: 370px;
+    left: 31px;
+    font-family: 'Ubuntu bold', sans-serif;
+    font-size: 16px;
+    color: #353854;
+    font-weight: bold;
+}
+.parallax-area3 p{
+    position: absolute;
+    top: 400px;
+    left: 30px;
+    line-height: 15px;
+}
+/******/
+
+
+
+/**************media query simple widgets***********/
+.widget-text h2{
+    font-family: 'Ubuntu bold', sans-serif;
+    font-size: 26px;
+    color: #6a91ff;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+/*===========media query screenshot-area=============*/
+.Screenshots-area{
+    margin-top: -150px;
+}
+.cloudy-img img {
+    margin-right: 50px;
+    width: 70%;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.cloudy-img span.cloudy15 {
+    background-color: #6ca3ff;
+    border: 1px solid #6ca3ff;
+    border-radius: 50px;
+    color: #fff;
+    font-family: "Ubuntu bold",sans-serif;
+    font-size: 29px;
+    height: 70px;
+    width: 70px;
+    left: 0px;
+    padding: 19px 11px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 240px;
+}
+.cloudy-img span.cloudy-box {
+    background-color: #fcec64;
+    border: 1px solid #fcec64;
+    border-radius: 50px;
+    color: #fff;
+    height: 70px;
+    width: 70px;
+    left: 230px;
+    padding: 25px 2px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 139px;
+    font-size: 15px;
+}
+.cloudy-img h1 {
+    color: #ededf2;
+    font-size: 156px;
+    left: 10px;
+    position: absolute;
+    top: 150px;
+    transform: rotate(90deg);
+    z-index: -1;
+}
+.cloudy-text img {
+    margin-top: 100px;
+}
+.cloudy-text h3 {
+    color: #648cff;
+    font-family: "Ubuntu bold",sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 35px;
+}
+.cloudy-text p {
+    color: #353854;
+    font-family: "Ubuntu",sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 20px;
+    text-align: justify;
+}
+.cloudy-text span.persent {
+    background-color: #fff;
+    border: 1px solid #f4f4f4;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px 5px #f4f4f4;
+    color: #353854;
+    font-family: "Ubuntu bold",sans-serif;
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    left: 0;
+    padding: 13px 4px;
+    position: absolute;
+    top: 800px;
+}
+.cloudy-text span.rain-degree {
+    background-color: #fff;
+    border: 1px solid #f4f4f4;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px 5px #f4f4f4;
+    color: #353854;
+    font-family: "Ubuntu bold",sans-serif;
+    font-size: 20px;
+    height: 50px;
+    left: 51px;
+    padding: 13px 16px;
+    position: absolute;
+    top: 800px;
+    width: 50px;
+    z-index: -1;
+}
+.cloudy-text span.Rainy {
+    background-color: #fff;
+    border: 1px solid #f4f4f4;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px 5px #f4f4f4;
+    color: #353854;
+    font-family: "Ubuntu bold",sans-serif;
+    font-size: 18px;
+    height: 50px;
+    left: 108px;
+    padding: 13px 1px;
+    position: absolute;
+    top: 800px;
+    width: 50px;
+    z-index: -2;
+}
+/*=========media query when the sun===========*/
+.the-sun-text img {
+    margin-left: 10px;
+    margin-top: 50px;
+}
+.the-sun-text h3 {
+    color: #648cff;
+    font-family: "Ubuntu bold",sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+.the-sun-text p {
+    color: #353854;
+    font-family: "Ubuntu",sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+    text-align: justify;
+}
+.the-sun-text span.persent {
+    background-color: #fff;
+    border: 1px solid #f4f4f4;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px 5px #f4f4f4;
+    color: #353854;
+    font-family: "Ubuntu bold",sans-serif;
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    left: -30px;
+    margin: 50px 0 0 50px;
+    padding: 13px 4px;
+    position: absolute;
+    top: 220px;
+}
+.the-sun-text span.rain-degree {
+    background-color: #fff;
+    border: 1px solid #f4f4f4;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px 5px #f4f4f4;
+    color: #353854;
+    font-family: "Ubuntu bold",sans-serif;
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    left: 20px;
+    margin: 50px 0 0 50px;
+    padding: 13px 16px;
+    position: absolute;
+    top: 220px;
+    z-index: -1;
+}
+.the-sun-text span.Rainy {
+    background-color: #fff;
+    border: 1px solid #f4f4f4;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px 5px #f4f4f4;
+    color: #353854;
+    font-family: "Ubuntu bold",sans-serif;
+    font-size: 18px;
+    height: 50px;
+    width: 50px;
+    left: 78px;
+    margin: 50px 0 0 50px;
+    padding: 13px 1px;
+    position: absolute;
+    top: 220px;
+    z-index: -2;
+}
+.the-sun-photo img {
+    margin-left: 40px;
+    margin-top: 150px;
+    width: 70%;
+}
+.the-sun-photo span.temparetur {
+    background-color: #fc6a42;
+    border: 1px solid #fc6a42;
+    border-radius: 50px;
+    color: #fff;
+    font-family: "Ubuntu bold",sans-serif;
+    font-size: 29px;
+    height: 70px;
+    width: 70px;
+    left: 0px;
+    padding: 19px 16px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 240px;
+}
+.the-sun-photo span.sonne {
+    background-color: #f2a14e;
+    border: 1px solid #f2a14e;
+    border-radius: 50px;
+    color: #fff;
+    font-family: "Ubuntu bold",sans-serif;
+    height: 70px;
+    width: 70px;
+    padding: 26px 6px;
+    position: absolute;
+    text-transform: uppercase;
+    left: 219px;
+    top: 110px;
+}
+
+/******media query when the rain**********/
+.rain-img img{
+    margin-top: 50px;
+    width: 70%;
+    margin-right: 50px;
+}
+.rain-img span.rain15{
+    position: absolute;
+    top: 288px;
+    left: 0px;
+    background-color: #7693c8;
+    border: 1px solid #7693c8;
+    border-radius: 50px 50px;
+    height: 70px;
+    width: 70px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 21px 11px;
+    font-size: 29px;
+    font-family: 'Ubuntu bold', sans-serif;
+}
+.rain-img span.rain-box{
+    position: absolute;
+    top: 165px;
+    left: 223px;
+    background-color: #b8faee;
+    border: 1px solid #b8faee;
+    border-radius: 50px 50px;
+    height: 70px;
+    width: 70px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 27px 0px;
+}
+.rain-img h1{
+    position: absolute;
+    top: 180px;
+    left: 20px;
+    font-size: 166px;
+    color: #ededf2;
+    transform: rotate(90deg);
+    z-index: -1;
+}
+.rain-text img{
+    padding-top: 100px;
+}
+.rain-text p{
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 20px;
+    color: #353854;
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 30px;
+}
+.rain-text span.persent{
+    position: absolute;
+    top: 850px;
+    left: 0px;
+    background-color: #fff;
+    border: 1px solid #f4f4f4;
+    border-radius: 50px 50px;
+    height: 50px;
+    width: 50px;
+    box-shadow: 5px 5px 5px 5px #f4f4f4;
+    color: #353854;
+    padding: 13px 4px;
+    font-size: 20px;
+    font-family: 'Ubuntu bold', sans-serif;
+}
+
+.rain-text span.rain-degree{
+    position: absolute;
+    top: 850px;
+    left: 51px;
+    background-color: #fff;
+    border: 1px solid #f4f4f4;
+    border-radius: 50px 50px;
+    height: 50px;
+    width: 50px;
+    box-shadow: 5px 5px 5px 5px #f4f4f4;
+    color: #353854;
+    padding: 13px 16px;
+    font-size: 20px;
+    font-family: 'Ubuntu bold', sans-serif;
+    z-index: -1;
+}
+
+
+.rain-text span.Rainy{
+    position: absolute;
+    top: 850px;
+    left: 108px;
+    background-color: #fff;
+    border: 1px solid #f4f4f4;
+    border-radius: 50px 50px;
+    height: 50px;
+    width: 50px;
+    box-shadow: 5px 5px 5px 5px #f4f4f4;
+    color: #353854;
+    padding: 13px 1px;
+    font-size: 18px;
+    font-family: 'Ubuntu bold', sans-serif;
+    z-index: -2;
+}
+
+/*********media query what-people-area-saying*********/
+.people-saying-text h2{
+    font-family: 'Ubuntu bold', sans-serif;
+    font-size: 20px;
+    color: #6a91ff;
+    text-transform: uppercase;
+    text-align: center;
+}
+.left-bone span.John{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    color: #353854;
+    top: 210px;
+    left: 60px;
+    position: absolute;
+}
+.left-bone img.right-img{
+    margin-right:-30px;
+    margin-top: 20px;
+}
+.left-bone span.Mignon{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    color: #353854;
+    top: 430px;
+    left: 60px;
+    position: absolute;
+}
+.right-bone span.John{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    color: #353854;
+    top: 210px;
+    left: 50px;
+    position: absolute;
+}
+.right-bone img.right-img{
+    margin-right: -30px;
+    margin-top: 20px;
+}
+
+/**************media query download area************/
+.download-text h3{
+    font-family: 'Ubuntu bold', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: -60px;
+}
+.download-text p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    line-height: 20px;
+    margin-top:10px;
+    margin-left: 10px;
+}
+.download-text img.google-right{
+    float: right;
+    position: absolute;
+    top: 110px;
+    left: 170px;
+}
+.download-area{
+    padding: 100px 0;
+    background: #648cff;
+    height: 450px;
+    width: 100%;
+    position: relative;
+}
+.download-img img{
+    position: absolute;
+    top: 48px;
+}
+
+/*************media query footer************/
+.weather-footer-wrap .fun a{
+    text-decoration: none;
+    color: #648cff;
+    font-size: 30px;
+    font-family: 'Ubuntu bold', sans-serif;
+    margin-top:-40px;
+    margin-left: 30px;
+}
+.weather-footer-wrap .footer ul{
+    padding-top: 40px;
+}
+.weather-footer-wrap .footer ul li a{
+    text-decoration: none;
+    margin-left: 90px;
+    color: #f4f4f4;
+}
+.weather-footer-wrap .another-connect ul{
+    padding: 15px 0;
+    margin-left: 60px;
+}
+.weather-footer-wrap .another-connect{
+    margin-top: -30px;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+/*************media query footer*******/
+.footer{
+    height: 150px;
+    width: 100%;
+    background: #353854;
+}
+
+.credit p{
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+
+}
+
+
+#scrollUp{
+    background-image: url("../img/top.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30px;
+    width: 50px;
+    right: 50px;
+    bottom: 50px;
+    text-indent: -99999px;
+}
+
+
+
+
+
+
+/*==========  Non-Mobile First Method  ==========*/
+/*
+ Large Devices, Wide Screens 
+@media only screen and (max-width : 1200px) {
+
+}
+
+ Medium Devices, Desktops 
+@media only screen and (max-width : 992px) {
+
+}
+
+ Small Devices, Tablets 
+@media only screen and (max-width : 768px) {
+
+}
+
+ Extra Small Devices, Phones 
+@media only screen and (max-width : 480px) {
+
+}
+
+ Custom, iPhone Retina  
+@media only screen and (max-width : 320px) {
+
+}
+
+}
+*/
